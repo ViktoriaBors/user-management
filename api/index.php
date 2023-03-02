@@ -1,8 +1,7 @@
 <?php
 
-session_start();
-// require "classes/router_get.php";
-// require "classes/router_post.php";
+require __DIR__ . '/../public/index.html';
+
 require("config/config.php");
 // ha túl sok classes van lehet használni
 spl_autoload_register(function ($class) {
